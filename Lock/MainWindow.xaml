@@ -1,0 +1,17 @@
+﻿<Window x:Class="Lock.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lock"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Saldo Atual:" HorizontalAlignment="Left" Margin="264,147,0,0" VerticalAlignment="Top"/>
+        <Label Name="labelSaldo" Content="Label" HorizontalAlignment="Left" Margin="342,147,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.56,-0.749"/>
+        <Button Content="Sacar R$ 100,00 sem Lock" HorizontalAlignment="Left" Margin="319,0,0,0" VerticalAlignment="Center" Click="ButtonSaqueSemLock_Click" />
+        <Button Content="Sacar R$ 100,00 com Lock" HorizontalAlignment="Left" Margin="318,256,0,0" VerticalAlignment="Top" Click="ButtonSaqueComLock_Click"/>
+        <Button Content="Reiniciar Saldo" HorizontalAlignment="Left" Margin="435,148,0,0" VerticalAlignment="Top" Click="ButtonReiniciar_Click" Height="23" Width="95"/>
+
+    </Grid>
+</Window>

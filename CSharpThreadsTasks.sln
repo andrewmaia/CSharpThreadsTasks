@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgressBar", "ProgressBar\ProgressBar.csproj", "{E0370E02-7EA8-4263-9951-1E161D19DD7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwait", "AsyncAwait\AsyncAwait.csproj", "{BB1B8A90-F8AB-412F-BB9A-FEB336E46455}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lock", "Lock\Lock.csproj", "{CBF4EE64-06E5-480F-BCAB-A06241943C6E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0370E02-7EA8-4263-9951-1E161D19DD7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0370E02-7EA8-4263-9951-1E161D19DD7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0370E02-7EA8-4263-9951-1E161D19DD7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0370E02-7EA8-4263-9951-1E161D19DD7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB1B8A90-F8AB-412F-BB9A-FEB336E46455}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB1B8A90-F8AB-412F-BB9A-FEB336E46455}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB1B8A90-F8AB-412F-BB9A-FEB336E46455}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB1B8A90-F8AB-412F-BB9A-FEB336E46455}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBF4EE64-06E5-480F-BCAB-A06241943C6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBF4EE64-06E5-480F-BCAB-A06241943C6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBF4EE64-06E5-480F-BCAB-A06241943C6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBF4EE64-06E5-480F-BCAB-A06241943C6E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {27176D04-EC6E-4CA5-8C3E-17D28D43D8A4}
+	EndGlobalSection
+EndGlobal
